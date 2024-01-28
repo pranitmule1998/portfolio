@@ -1,0 +1,331 @@
+.main {
+    height: 570px;
+    width: 960px;
+    background-color: black;
+    margin-left: 300px;
+    /* margin-top: 10px; */
+    position: absolute;
+    box-shadow: -2px -2px 6px 2px white
+}
+
+.main:hover {
+    border-top: 5px solid red;
+    border-left: 5px solid blue;
+    border-right: 5px solid yellow;
+}
+
+
+
+
+ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: center;
+    position: relative;
+
+}
+
+li {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    position: relative;
+}
+
+#r {
+    color: greenyellow;
+    font-size: 30px;
+}
+
+#q {
+    font-size: 30px;
+}
+
+li:hover {
+    color: yellow;
+    cursor: pointer;
+    position: relative;
+}
+
+#hello {
+    color: rgb(7, 169, 7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 0px;
+    position: absolute;
+}
+
+#pranit {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-left: 95px;
+    margin-top: 50px;
+
+}
+
+#mule {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-left: 75px
+}
+
+#ri {
+    text-shadow: 2px 2px 2px white;
+    text-align: center;
+    font-size: 50px;
+
+
+
+}
+
+body {
+    background-color: rgb(35, 34, 34);
+
+}
+
+#button {
+    background-color: gold;
+    border-radius: 25px;
+    width: 120px;
+    height: 40px;
+    border-top: black;
+    border-left: black;
+    margin-left: 430px;
+
+
+}
+
+#link {
+    color: black;
+    text-decoration: none;
+}
+
+#photo {
+    position: relative;
+    margin-top: 130px;
+    margin-left: 35px;
+
+}
+
+#port {
+    color: white;
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 30px;
+
+}
+
+#port2 {
+    color: rgb(165, 82, 248);
+    padding-left: 80px;
+    font-size: 30px;
+}
+
+#mail {
+    height: 35px;
+    width: 45px;
+    margin-left: 840px;
+    position: absolute;
+}
+
+#git {
+    height: 35px;
+    width: 45px;
+    margin-left: 840px;
+
+}
+
+#git:hover {
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 7);
+}
+
+.foot {
+    height: 500px;
+    width: 1255px;
+    /* background-color: rgb(1, 1, 58); */
+    background-image: url("https://img.freepik.com/free-vector/gradient-black-technology-background_23-2149209060.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705276800&semt=ais");
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#education {
+    height: 230px;
+    width: 430px;
+    background-color: black;
+    margin-top: 60px;
+    margin-left: 150px;
+    position: absolute;
+    color: white;
+
+}
+
+#education:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+td:hover {
+    background-color: rgb(171, 171, 3);
+    color: black;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border: 1px solid yellowgreen;
+    height: 230px;
+    border-collapse: collapse;
+    box-shadow: -2px -2px 5px 2px yellowgreen;
+    border-radius: 10px;
+}
+
+
+th,
+td {
+    border: 1px solid yellowgreen;
+
+}
+
+#skill {
+    height: 230px;
+    width: 430px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    margin-left: 730px;
+    margin-top: 60px;
+    border: 2px solid yellow;
+    color: white;
+    box-shadow: 2px 2px 5px 2px white;
+    border-radius: 10px;
+}
+
+#skill:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+#sk {
+    background-color: orange;
+    text-align: center;
+    color: black;
+}
+
+#html {
+    background-color: black;
+    height: 40px;
+    width: 80px;
+    color: white;
+    border-radius: 20px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    font-size: 20px;
+}
+
+#html:hover {
+    background-color: blue;
+    color: white;
+}
+
+#bootstrap {
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    color: white;
+    border-radius: 20px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    font-size: 20px;
+}
+
+#bootstrap:hover {
+    background-color: blue;
+}
+
+#bootstrap1 {
+    background-color: black;
+    height: 40px;
+    width: 200px;
+    color: white;
+    border-radius: 20px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    font-size: 20px;
+}
+
+#bootstrap1:hover {
+    background-color: blue;
+}
+
+#proj {
+    text-align: center;
+    color: white;
+    text-shadow: 9px 9px 9px red;
+}
+
+#links {
+    color: white;
+    margin-top: 300px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 5px blue;
+}
+
+#click {
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+    margin-left: 560px;
+    height: 50px;
+    width: 130px;
+    border-radius: 10px;
+    color: white;
+    border-bottom: 2px solid blue;
+    border-right: 2px solid blue;
+
+    border-top: 2px solid yellow;
+    border-left: 2px solid yellow;
+
+}
+
+#click:hover {
+    cursor: pointer;
+    background-color: rgb(18, 17, 17);
+    font-size: 20px;
+}
+
+#about {
+    height: 400px;
+    width: 600px;
+    background-color: black;
+    color: white;
+    position: absolute;
+}
+#sec{
+    height: 400px;
+    width: 600px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 20px;
+}
+#footer{
+    position: absolute;
+    color: aliceblue;
+    margin-top: 430px;
+    height: 40px;
+    width: 100%;
+    background-color: blue;
+}
